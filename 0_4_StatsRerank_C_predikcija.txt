@@ -1,10 +1,10 @@
 
 --- 28.05.2026_11.06.27 (seed=39, N=4622, mode=C, top_pool=15, weight=0.25) ---
-DTR: raw=[8, 13, 16, 23, 31, 34, 37] (suma=162, neparnih=4/7, niskih(≤19)=3/7, raspon=29); 
-rerank_C=[1, 8, 13, 23, 29, 32, 38] (suma=144, neparnih=4/7, niskih(≤19)=3/7, raspon=37); raw_hits=1.480; rerank_hits=1.380; AUC=0.506; LRAP=0.254; position_score=-16.898; total_score=-2.873
-RFR: raw=[7, 8, 23, 26, 27, 32, 35] (suma=158, neparnih=4/7, niskih(≤19)=2/7, raspon=28); 
-rerank_C=[3, 8, 15, 23, 29, 32, 38] (suma=148, neparnih=4/7, niskih(≤19)=3/7, raspon=35); raw_hits=1.170; rerank_hits=1.260; AUC=0.492; LRAP=0.245; position_score=-17.224; total_score=-2.978
-XGB: raw=[2, 7, 23, 28, 30, 32, 37] (suma=159, neparnih=3/7, niskih(≤19)=2/7, raspon=35); 
-rerank_C=[2, 7, 13, 23, 28, 32, 37] (suma=142, neparnih=4/7, niskih(≤19)=3/7, raspon=35); raw_hits=1.140; rerank_hits=1.100; AUC=0.498; LRAP=0.239; position_score=-17.409; total_score=-2.070
+DTR: raw=[8, x, 16, y, 31, z, 37] (suma=162, neparnih=4/7, niskih(≤19)=3/7, raspon=29); 
+rerank_C=[1, x, 13, y, 29, z, 38] (suma=144, neparnih=4/7, niskih(≤19)=3/7, raspon=37); raw_hits=1.480; rerank_hits=1.380; AUC=0.506; LRAP=0.254; position_score=-16.898; total_score=-2.873
+RFR: raw=[7, x, 23, y, 27, z, 35] (suma=158, neparnih=4/7, niskih(≤19)=2/7, raspon=28); 
+rerank_C=[3, x, 15, y, 29, z, 38] (suma=148, neparnih=4/7, niskih(≤19)=3/7, raspon=35); raw_hits=1.170; rerank_hits=1.260; AUC=0.492; LRAP=0.245; position_score=-17.224; total_score=-2.978
+XGB: raw=[2, x, 23, y, 30, z, 37] (suma=159, neparnih=3/7, niskih(≤19)=2/7, raspon=35); 
+rerank_C=[2, x, 13, y, 28, z, 37] (suma=142, neparnih=4/7, niskih(≤19)=3/7, raspon=35); raw_hits=1.140; rerank_hits=1.100; AUC=0.498; LRAP=0.239; position_score=-17.409; total_score=-2.070
 plot=/0_4_SkewnessKurtosis_C.png
 ukupno_vreme=0:01:26  (86.3 s)
